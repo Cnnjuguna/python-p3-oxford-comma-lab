@@ -7,24 +7,6 @@
 """
 
 
-# def oxford_comma(items):
-#     # only 1 element
-#     if len(items) == 1:
-#         return items[0]
-#     elif len(items) == 2:
-#         return f"{items[0]} and {items[1]}"
-#     elif len(items) == 3:
-#         formatted_item = ", ".join(items[:-1])  # joining the elements except the last one with a comma (,)
-#         # formatted_item += f", and {items[-1]}"  # add ("and") before the last item in the list
-#         formatted_item += f", and {items[-1]}"
-
-#         return formatted_item
-
-
-# formatted_list = oxford_comma(["apple", "banana", "cherry", "date"])
-# print(formatted_list)
-
-
 def oxford_comma(items):
     if len(items) == 1:
         return items[0]
